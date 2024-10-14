@@ -1,0 +1,9 @@
+services:
+  xampp:
+    image: 	tomsik68/xampp:8
+    container_name: xampp_container
+    ports:
+      - 9090:80
+
+volumes:
+  proj-volume:
