@@ -4,6 +4,5 @@ services:
     container_name: xampp_container
     ports:
       - 9090:80
-
-volumes:
-  proj-volume:
+    volumes:
+      - .:/opt/lampp/htdocs/ecommerce
