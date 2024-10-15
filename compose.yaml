@@ -6,3 +6,5 @@ services:
       - 9090:80
     volumes:
       - .:/opt/lampp/htdocs/ecommerce
+    stdin_open: true
+    tty: true
