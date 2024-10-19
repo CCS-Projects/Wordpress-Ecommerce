@@ -11,3 +11,6 @@ This projects is a simple demonstration of using Wordpress to create an ecommerc
 ## Usage:
 * open _**127.0.0.1:9090**_ on your web browser and you will be redirected to xampp admin panel.
 ![img.png](img.png)
+
+## Note:
+* In situation where plugin installation failed due to _**folder cannot be created**_ or other similar reasons. Just access the xampp container using _**sudo docker exec -it <container_name> bash**_. Inside, execute the command _**chmod 777 -R /opt/lampp/htdocs/ecommerce/wp-content**_
